@@ -2,7 +2,7 @@ namespace SpriteKind {
     export const fish = SpriteKind.create()
 }
 // remember to add questions
-function chapter3 (Jonah: Sprite) {
+function chapter3(Jonah: Sprite) {
     scene.setBackgroundImage(img`
         8fffffffffffffffffffffffff88fffff88ffff8998889999999989988888989999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
         ffffffffffffffffffffffffff8fffff88ff9f88889889999999989998888898999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
@@ -124,25 +124,25 @@ function chapter3 (Jonah: Sprite) {
         66ccccccccccccc66665cccccccccccccccccccc666cccc6444444ccc6cccccbb6666566666666f6666fffffffff66666666666666666cccccccccccccccccccccccccccccc666cccccccccccccc66cc
         6cccccccccccccc66666ccccccccccccccccccc6666cccc6644bccccccccccccc8666666666666f66666ffffffff666666666666666666ccccccccccccccccccccccccccccccccccccccccccccccccc8
         6cccccccccccccc66666ccccccccccccccccccc666ccccc6666ccccccccccccccf666666666666ff6666ffffffff6666666666666666666ccccccccccccccc6cccccccccccccccccccccccccccccccc8
-        `)
+    `)
     Jonah = sprites.create(img`
-        . . . . f f f f . . . . 
-        . . f f e e e e f f . . 
-        . f e e e e e e e e f . 
-        f e e e 4 e e e e e e f 
-        f e e 4 4 4 e e e e e f 
-        f e e 4 4 4 4 e e e e f 
-        f 4 e 4 4 4 4 4 4 e 4 f 
-        f 4 4 f 1 4 4 f 1 4 4 f 
-        f e 4 e e e e e e 4 e f 
-        . f e e e b b e e e f . 
-        . f f e e e e e e f f . 
-        e 4 f b d d d d b f 4 e 
-        4 d f d d d d d d f d 4 
-        4 4 f c c c c c c f 4 4 
-        . . . f f f f f f . . . 
-        . . . f f . . f f . . . 
-        `, SpriteKind.Player)
+        . . . . f f f f . . . .
+        . . f f e e e e f f . .
+        . f e e e e e e e e f .
+        f e e e 4 e e e e e e f
+        f e e 4 4 4 e e e e e f
+        f e e 4 4 4 4 e e e e f
+        f 4 e 4 4 4 4 4 4 e 4 f
+        f 4 4 f 1 4 4 f 1 4 4 f
+        f e 4 e e e e e e 4 e f
+        . f e e e b b e e e f .
+        . f f e e e e e e f f .
+        e 4 f b d d d d b f 4 e
+        4 d f d d d d d d f d 4
+        4 4 f c c c c c c f 4 4
+        . . . f f f f f f . . .
+        . . . f f . . f f . . .
+    `, SpriteKind.Player)
     Jonah.setPosition(13, 32)
     projectile = sprites.createProjectileFromSide(img`
         ...........fffffff...ccfff..........
@@ -161,13 +161,13 @@ function chapter3 (Jonah: Sprite) {
         ............cc1111fbdbbfdddc...fbbf.
         ..............cccfffbdbbfcc.....fbbf
         ....................fffff........fff
-        `, 50, 50)
+    `, 50, 50)
 }
-function chapter2 () {
-	
+function chapter2() {
+
 }
-function chapter1 () {
-	
+function chapter1() {
+
 }
 let projectile: Sprite = null
 let Jonah: Sprite = null
