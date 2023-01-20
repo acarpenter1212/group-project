@@ -7,7 +7,7 @@ function chapter2 () {
 function chapter1 () {
 	
 }
-let chooseChapter = game.askForString("what chapter do you want to read?")
+let chooseChapter = game.askForString("what chapter do you want to read?", 9)
 if (chooseChapter == "chapter 1") {
     chapter1()
 } else if (chooseChapter == "chapter 2") {
